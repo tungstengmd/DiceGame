@@ -40,6 +40,18 @@
                 score2 = die3 + die4;
             }
             Console.WriteLine("Score: " + score2);
+            if (score > score2)
+            {
+                Console.WriteLine("Player 1 wins");
+            }
+            else if (score == score2)
+            {
+                Console.WriteLine("Tie");
+            }
+            else 
+            {
+                Console.WriteLine("Player 2 wins");
+            }
         }
     }
 }
