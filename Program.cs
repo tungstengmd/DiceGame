@@ -7,7 +7,7 @@
             var rand = new Random();
             int die1 = rand.Next(1,7);
             int die2 = rand.Next(1,7);
-            var score = 0;
+            int score = 0;
             if (die1 == die2) {
                 if (die1 == 6)
                 {
@@ -23,7 +23,7 @@
             Console.WriteLine("Score: " + score);
             int die3 = rand.Next(1, 7);
             int die4 = rand.Next(1, 7);
-            var score2 = 0;
+            int score2 = 0;
             if (die3 == die4)
             {
                 if (die1 == 6)
